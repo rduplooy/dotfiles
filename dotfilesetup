@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd
+
+path=$(pwd)
+
+#GIT
+ln -nfs "$path/dotfiles/.gitconfig $path/.gitconfig"
+
+#VIM
+ln -nfs "$path/dotfiles/.vimrc $path/.vimrc"
+
+#ZSH
+ln -nfs "$path/dotfiles/.zshrc $path/.zshrc"
+

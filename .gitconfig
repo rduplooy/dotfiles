@@ -1,0 +1,8 @@
+[user]
+	name = rduplooy
+	email = ruanduplooy@gmail.com
+	password = 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
+[color]
+	ui = true
+[credential]
+	helper = cache --timeout=604800
